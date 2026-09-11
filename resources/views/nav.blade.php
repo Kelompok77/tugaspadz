@@ -165,11 +165,15 @@
         <div class="logo">XII<span>RPL</span></div>
 
         <ul class="nav-links" id="navLinks">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="profil">Profil Jurusan</a></li>
-            <li><a href="mapel">Daftar Mapel</a></li>
-            <li><a href="guru">Data Guru</a></li>
-            <li><a href="kontak">Kontak</a></li>
+            <li><a href="{{ route('beranda') }}">Beranda</a></li>
+            <li><a href="{{ route('profil') }}">Profil Jurusan</a></li>
+            <li><a href="{{ route('mapel') }}">Daftar Mapel</a></li>
+            <li><a href="{{ route('guru') }}">Data Guru</a></li>
+            <li><a href="{{ route('kontak') }}">Kontak</a></li>
+            <li><a href="{{ route('fasilitas') }}">Fasilitas</a></li>
+            <li><a href="{{ route('prestasi') }}">Prestasi</a></li>
+            <li><a href="{{ route('galeri') }}">Galeri</a></li>
+
         </ul>
 
         <div class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">
